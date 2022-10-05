@@ -1,6 +1,6 @@
 # Street Style Landing Page  ![](https://img.shields.io/badge/-HTML-orange) ![](https://img.shields.io/badge/-CSS-yellowgreen)
   
- This  is a landing page made for learing puprose by using `CORE CSS` and `HTML`. As of now this is not responsive.
+ This is a landing page made for learning purposes using `CORE CSS` and `HTML`. As of now, this is not responsive.
 
 
 Made by - **Robin Khilery**
