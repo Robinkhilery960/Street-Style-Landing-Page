@@ -1,0 +1,149 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top:10px; 
+
+}
+.list-container{ 
+    flex-grow: 2;   
+    list-style-type:  none;  
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    list-style-type:  none;  
+    font-family: "Orbitron", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.button-group{
+    flex-grow: 1;
+    display: flex;  
+}
+
+.logo{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+.logo>img{
+    flex-wrap: 1;
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px 40px;
+    background: transparent;
+    margin-left: 10px;
+}
+.list>.list-item:first-child::after{ 
+    content: "";
+    display: block;
+    width: 40px; 
+    height: 3px; 
+    background-color: #000000;
+    position: fixed;
+    left: 420px;
+} 
+.list>.list-item:first-child{ 
+     font-weight: 900;
+} 
+
+.hero-container{
+    position: relative; 
+}
+
+.hero-container>div:nth-child(4)>img{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    height: 435px;
+    width: 350px;
+}
+.square>img{
+    position: absolute;
+    left: 195px;
+    top: 240px;
+    height: 280px; 
+}
+.globe>img{
+    position: absolute;
+    left: 750px;
+    height: 60px;
+
+}
+.star{
+    position: absolute;
+    right: 100px;
+    top: 70px;
+}
+
+h1{
+    position: absolute;
+    top: 110px;
+    left: 520px;
+    font-size: 60px; 
+    font-family: "Orbitron", sans-serif; 
+}
+
+.hero-description{
+    position: absolute;
+    top: 240px;
+    left: 590px;
+    columns: #515151;
+    font-family: "Poppins", sans-serif; 
+    font-size: 15px;
+    text-align: center; 
+    width: 50vw;
+    
+}
+.button-email{
+    position: fixed;
+    bottom:150px;
+    right: 490px;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: "Orbitron", sans-serif; 
+
+}
+.button-join{
+    position: fixed;
+    bottom:150px;
+    right: 350px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: "Orbitron", sans-serif; 
+    color: white;
+    background-color: #000000;
+}
+.contact-heading{
+    position: fixed;
+    bottom:55px;
+    right: 450px;
+}
+
+.icons{
+    position: fixed;
+    bottom:20px;
+    right: 400px;
+}
+
+.star2>img{
+    position: fixed;
+    bottom:55px;
+    left: 560px;
+    height: 40px;
+
+}
